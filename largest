@@ -1,0 +1,15 @@
+import array as ar
+
+def MaxofArray(arr):
+    max=a[0]
+    n = len(arr)   
+    for i in range(n):
+        if(max<a[i]):
+            max=a[i]
+    return max
+  
+#input values to list 
+a = ar.array('i',[10, 21, 12, 13])
+  
+# display sum 
+print ('Max of the array is ', MaxofArray(a) ) 
